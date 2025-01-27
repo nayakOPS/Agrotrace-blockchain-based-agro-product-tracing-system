@@ -4,12 +4,12 @@ import { ContactUs } from "./ContactUs";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-b from-emerald-50 to-teal-50">
+    <div className="bg-green-50 min-h-screen">
       <Navbar />
-      <main className="scroll-smooth">
+      <div className="p-4">
         <AboutUs />
         <ContactUs />
-      </main>
+      </div>
     </div>
   );
 }
