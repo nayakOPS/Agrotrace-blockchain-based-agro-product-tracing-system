@@ -1,0 +1,42 @@
+# Node.js dependencies
+/node_modules/
+
+# React build files
+/build/
+/dist/
+
+# .env file for environment variables (don't commit sensitive data)
+.env
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+/npm-debug.log
+/yarn-debug.log
+/yarn-error.log
+
+# IDEs and Editor folders
+/.vscode/
+/.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# MySQL database files (if any)
+/*.sql
+
+# Ethereum related files
+/.openzeppelin/
+/artifacts/
+/cache/
+
+# Ganache local blockchain files (for local testing)
+*.db
+*.log
+
+# Miscellaneous files
+*.bak
+*.swp
