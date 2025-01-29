@@ -9,7 +9,7 @@ function Home() {
       <div className="p-4">
         <AboutUs />
         <ContactUs />
-        {/* coded by bhattaarai */}
+        {/* coded by prajwal */}
       </div>
     </div>
   );
