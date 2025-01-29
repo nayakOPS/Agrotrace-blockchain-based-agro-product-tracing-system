@@ -29,8 +29,10 @@ export const AboutUs = () => {
               <div className="bg-emerald-50 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold text-emerald-800 mb-2">For Consumers</h4>
                 <p className="text-gray-700">
-                  Allowing consumers to verify the details of agro products by scanning 
-                  QR codes, promoting safe and informed consumption.
+                  {/* Allowing consumers to verify the details of agro products by scanning 
+                  QR codes, promoting safe and informed consumption. */}
+
+                  {/* here is bug fixed */}
                 </p>
               </div>
             </div>
