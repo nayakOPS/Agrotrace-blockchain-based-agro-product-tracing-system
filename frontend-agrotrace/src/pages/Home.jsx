@@ -9,6 +9,7 @@ function Home() {
       <div className="p-4">
         <AboutUs />
         <ContactUs />
+        {/* prajwal coded nby prafas */} 
       </div>
     </div>
   );
