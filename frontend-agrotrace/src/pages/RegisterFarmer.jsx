@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FormContainer, FormInput, SubmitButton } from "../components/FormComponents";
 import Navbar from "../components/NavBar";
+import { useNavigate } from "react-router-dom";
+
 
 const RegisterFarmer = () => {
   const [formData, setFormData] = useState({
@@ -17,10 +19,13 @@ const RegisterFarmer = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const navigate = useNavigate()
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    navigate('/cropdetail')
   };
+
 
   return (
     <>

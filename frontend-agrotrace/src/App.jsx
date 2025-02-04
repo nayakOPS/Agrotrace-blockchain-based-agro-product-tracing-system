@@ -5,6 +5,7 @@ import { ContactUs } from "./pages/ContactUs";
 import RegisterFarmer from "./pages/RegisterFarmer";
 import RegisterAgroTrader from "./pages/RegisterAgroTrader";
 import ScanQRCode from "./pages/ScanQRCode";
+import  CropDetail  from "./pages/CropDetail"
 
 export const App = () =>{
   return (
@@ -16,6 +17,7 @@ export const App = () =>{
         <Route path="/register-farmer" element={<RegisterFarmer />} />
         <Route path="/register-agrotrader" element={<RegisterAgroTrader />} />
         <Route path="/scan-qr" element={<ScanQRCode />} />
+        <Route path="/cropdetail" element={<CropDetail />} />
       </Routes>
     </Router>
   );
