@@ -15,3 +15,26 @@ This folder contains the smart contracts written in Solidity for managing the ag
 - Solidity
 - Truffle or Hardhat (for contract deployment)
 - Ganache (for local blockchain testing)
+
+
+AgroTrace/
+│── Backend/
+│── Blockchain/
+│   │── contracts/         <- Place Solidity contracts here
+│   │── hardhat.config.js  <- Hardhat configuration file
+│   │── package.json       <- Node.js dependencies
+│   │── node_modules/
+│── frontend-agrotrace/
+│── README.md
+
+
+To compile contracts :
+
+npx hardhat compile
+
+start a local blockchain:
+npx hardhat node
+
+deploy the contract to the local net:
+npx hardhat run scripts/deploy.js --network localhost
+

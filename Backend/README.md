@@ -14,3 +14,6 @@ The backend is built using Node.js and Express.js and is responsible for handlin
 - Web3.js
 - MySQL (for storing metadata)
 - QRCode.js (for generating QR codes)
+
+
+this is the newluy pushed code
